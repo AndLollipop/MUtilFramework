@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'bintray-release'//添加
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+//添加
+publish {
+    userOrg = 'lypop'//bintray.com用户名
+    groupId = 'com.lypop'//jcenter上的路径
+    artifactId = 'MUtilFramework'//项目名称
+    publishVersion = '1.0.1'//版本号
+    desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
+    website = ''//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+}

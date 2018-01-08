@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MUtilFramework.iml" filepath="$PROJECT_DIR$/MUtilFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-annotation/util-annotation.iml" filepath="$PROJECT_DIR$/util-annotation/util-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-library/util-library.iml" filepath="$PROJECT_DIR$/util-library/util-library.iml" />
+    </modules>
+  </component>
+</project>
